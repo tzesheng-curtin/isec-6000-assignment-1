@@ -59,7 +59,7 @@ Proceed to reviewing and creating the cluster once the correct settings has been
 In GKE Clusters page, next to the cluster there is an option to connect to the cluster. Select the "Connect" option.
 ![Screenshot 2023-09-03 231618](https://github.com/tzesheng-curtin/isec6000-assignment1-task1/assets/143274010/f1514ae7-364d-433d-91bc-cdf3b219fb7c)
 
-Copy the command line and run it in the terminal on your local environment. This will generate a kubeconfig entry in your local environment.
+Copy the command line that appears in the pop up and run it in the terminal on your local environment. This will generate a kubeconfig entry in your local environment.
 ![Screenshot 2023-09-03 232438](https://github.com/tzesheng-curtin/isec6000-assignment1-task1/assets/143274010/303bc51d-e024-45a6-811c-c3247ebab50a)
 
 ### 2. Verify that Kubectl is connected to the Kubernetes Cluster
@@ -107,7 +107,7 @@ Your application should look like this.
 
 ![Screenshot 2023-09-04 223718](https://github.com/tzesheng-curtin/isec6000-assignment1-task1/assets/143274010/3fa8101b-0691-480e-a1b6-ce819a883979)
 
- **Note**: Its recommend to delete the hello-server service to prevent GCP from charging you for running the service:
+ **Note**: Its recommend to delete the hello-server service to prevent GCP from charging you for running the service.
  This can be done with the following command:
  ```
  kubectl delete service hello-server
